@@ -8,17 +8,55 @@
 
 /* Begin PBXBuildFile section */
 		EFCF19102DC87C31008B8D22 /* RobinhoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCF190F2DC87C31008B8D22 /* RobinhoodApp.swift */; };
-		EFCF19122DC87C31008B8D22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCF19112DC87C31008B8D22 /* ContentView.swift */; };
+		EFCF19122DC87C31008B8D22 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCF19112DC87C31008B8D22 /* WelcomeScreen.swift */; };
 		EFCF19142DC87C32008B8D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFCF19132DC87C32008B8D22 /* Assets.xcassets */; };
 		EFCF19172DC87C32008B8D22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFCF19162DC87C32008B8D22 /* Preview Assets.xcassets */; };
+		EFCF19202DC8857F008B8D22 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCF191F2DC8857F008B8D22 /* LoginView.swift */; };
+		EFCF19222DC88588008B8D22 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCF19212DC88588008B8D22 /* SignupView.swift */; };
+		EFCF19272DC8895F008B8D22 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCF19262DC8895F008B8D22 /* CustomTextField.swift */; };
+		EFCF19292DC88E27008B8D22 /* SecureInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCF19282DC88E27008B8D22 /* SecureInputField.swift */; };
+		EFCF192C2DC891A3008B8D22 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCF192B2DC891A3008B8D22 /* AuthenticationViewModel.swift */; };
+		EFCF192F2DC89D67008B8D22 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCF192E2DC89D67008B8D22 /* HomeView.swift */; };
+		EFCF19322DC8A10E008B8D22 /* TabChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCF19312DC8A10E008B8D22 /* TabChartsView.swift */; };
+		EFCF19362DC8A14E008B8D22 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCF19352DC8A14E008B8D22 /* ProfileView.swift */; };
+		EFCF19392DC8A1B3008B8D22 /* CustomTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCF19382DC8A1B3008B8D22 /* CustomTabbar.swift */; };
+		EFCF193B2DC8A1E4008B8D22 /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCF193A2DC8A1E4008B8D22 /* TabBarButton.swift */; };
+		EFCF193E2DC8A233008B8D22 /* TabBarItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCF193D2DC8A233008B8D22 /* TabBarItems.swift */; };
+		EFCF19402DC8B8AC008B8D22 /* UserImageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCF193F2DC8B8AC008B8D22 /* UserImageRow.swift */; };
+		EFCF19422DC8BD7D008B8D22 /* CardRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCF19412DC8BD7D008B8D22 /* CardRowView.swift */; };
+		EFCF19442DC8C137008B8D22 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCF19432DC8C137008B8D22 /* MenuView.swift */; };
+		EFCF19462DC8C53F008B8D22 /* NavigationbarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCF19452DC8C53F008B8D22 /* NavigationbarExtension.swift */; };
+		EFCF19482DC8C9EA008B8D22 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCF19472DC8C9EA008B8D22 /* LineChartView.swift */; };
+		EFCF194A2DC8D360008B8D22 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCF19492DC8D360008B8D22 /* PieChartView.swift */; };
+		EFCF194C2DC8D5CC008B8D22 /* InfoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCF194B2DC8D5CC008B8D22 /* InfoCardView.swift */; };
+		EFCF194E2DC8D61C008B8D22 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCF194D2DC8D61C008B8D22 /* DiscoverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EFCF190C2DC87C31008B8D22 /* Robinhood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Robinhood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFCF190F2DC87C31008B8D22 /* RobinhoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobinhoodApp.swift; sourceTree = "<group>"; };
-		EFCF19112DC87C31008B8D22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFCF19112DC87C31008B8D22 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
 		EFCF19132DC87C32008B8D22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFCF19162DC87C32008B8D22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFCF191F2DC8857F008B8D22 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EFCF19212DC88588008B8D22 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		EFCF19262DC8895F008B8D22 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		EFCF19282DC88E27008B8D22 /* SecureInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureInputField.swift; sourceTree = "<group>"; };
+		EFCF192B2DC891A3008B8D22 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		EFCF192E2DC89D67008B8D22 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EFCF19312DC8A10E008B8D22 /* TabChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabChartsView.swift; sourceTree = "<group>"; };
+		EFCF19352DC8A14E008B8D22 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		EFCF19382DC8A1B3008B8D22 /* CustomTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbar.swift; sourceTree = "<group>"; };
+		EFCF193A2DC8A1E4008B8D22 /* TabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
+		EFCF193D2DC8A233008B8D22 /* TabBarItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItems.swift; sourceTree = "<group>"; };
+		EFCF193F2DC8B8AC008B8D22 /* UserImageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserImageRow.swift; sourceTree = "<group>"; };
+		EFCF19412DC8BD7D008B8D22 /* CardRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRowView.swift; sourceTree = "<group>"; };
+		EFCF19432DC8C137008B8D22 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		EFCF19452DC8C53F008B8D22 /* NavigationbarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationbarExtension.swift; sourceTree = "<group>"; };
+		EFCF19472DC8C9EA008B8D22 /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
+		EFCF19492DC8D360008B8D22 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		EFCF194B2DC8D5CC008B8D22 /* InfoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCardView.swift; sourceTree = "<group>"; };
+		EFCF194D2DC8D61C008B8D22 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +89,13 @@
 		EFCF190E2DC87C31008B8D22 /* Robinhood */ = {
 			isa = PBXGroup;
 			children = (
+				EFCF19242DC88942008B8D22 /* Helpers */,
+				EFCF191D2DC884ED008B8D22 /* Screens */,
 				EFCF190F2DC87C31008B8D22 /* RobinhoodApp.swift */,
-				EFCF19112DC87C31008B8D22 /* ContentView.swift */,
+				EFCF19112DC87C31008B8D22 /* WelcomeScreen.swift */,
 				EFCF19132DC87C32008B8D22 /* Assets.xcassets */,
 				EFCF19152DC87C32008B8D22 /* Preview Content */,
+				EFCF19312DC8A10E008B8D22 /* TabChartsView.swift */,
 			);
 			path = Robinhood;
 			sourceTree = "<group>";
@@ -65,6 +106,118 @@
 				EFCF19162DC87C32008B8D22 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFCF191D2DC884ED008B8D22 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				EFCF19302DC8A0CC008B8D22 /* Profile */,
+				EFCF192D2DC89D50008B8D22 /* Home */,
+				EFCF191E2DC8856C008B8D22 /* Authentication */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		EFCF191E2DC8856C008B8D22 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				EFCF192A2DC89180008B8D22 /* ViewModels */,
+				EFCF19232DC88594008B8D22 /* Views */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		EFCF19232DC88594008B8D22 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EFCF191F2DC8857F008B8D22 /* LoginView.swift */,
+				EFCF19212DC88588008B8D22 /* SignupView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EFCF19242DC88942008B8D22 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EFCF19252DC88949008B8D22 /* Views */,
+				EFCF19452DC8C53F008B8D22 /* NavigationbarExtension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EFCF19252DC88949008B8D22 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EFCF19372DC8A19B008B8D22 /* CustomTab */,
+				EFCF19262DC8895F008B8D22 /* CustomTextField.swift */,
+				EFCF19282DC88E27008B8D22 /* SecureInputField.swift */,
+				EFCF193F2DC8B8AC008B8D22 /* UserImageRow.swift */,
+				EFCF19472DC8C9EA008B8D22 /* LineChartView.swift */,
+				EFCF19492DC8D360008B8D22 /* PieChartView.swift */,
+				EFCF194B2DC8D5CC008B8D22 /* InfoCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EFCF192A2DC89180008B8D22 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EFCF192B2DC891A3008B8D22 /* AuthenticationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EFCF192D2DC89D50008B8D22 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EFCF193C2DC8A21F008B8D22 /* Model */,
+				EFCF19342DC8A141008B8D22 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EFCF19302DC8A0CC008B8D22 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				EFCF19332DC8A137008B8D22 /* Views */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		EFCF19332DC8A137008B8D22 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EFCF19352DC8A14E008B8D22 /* ProfileView.swift */,
+				EFCF19432DC8C137008B8D22 /* MenuView.swift */,
+				EFCF194D2DC8D61C008B8D22 /* DiscoverView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EFCF19342DC8A141008B8D22 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EFCF192E2DC89D67008B8D22 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EFCF19372DC8A19B008B8D22 /* CustomTab */ = {
+			isa = PBXGroup;
+			children = (
+				EFCF19382DC8A1B3008B8D22 /* CustomTabbar.swift */,
+				EFCF193A2DC8A1E4008B8D22 /* TabBarButton.swift */,
+				EFCF19412DC8BD7D008B8D22 /* CardRowView.swift */,
+			);
+			path = CustomTab;
+			sourceTree = "<group>";
+		};
+		EFCF193C2DC8A21F008B8D22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFCF193D2DC8A233008B8D22 /* TabBarItems.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +290,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFCF19122DC87C31008B8D22 /* ContentView.swift in Sources */,
+				EFCF19222DC88588008B8D22 /* SignupView.swift in Sources */,
+				EFCF19462DC8C53F008B8D22 /* NavigationbarExtension.swift in Sources */,
+				EFCF19202DC8857F008B8D22 /* LoginView.swift in Sources */,
+				EFCF19362DC8A14E008B8D22 /* ProfileView.swift in Sources */,
+				EFCF19402DC8B8AC008B8D22 /* UserImageRow.swift in Sources */,
+				EFCF19482DC8C9EA008B8D22 /* LineChartView.swift in Sources */,
+				EFCF192C2DC891A3008B8D22 /* AuthenticationViewModel.swift in Sources */,
+				EFCF19322DC8A10E008B8D22 /* TabChartsView.swift in Sources */,
+				EFCF19422DC8BD7D008B8D22 /* CardRowView.swift in Sources */,
+				EFCF193B2DC8A1E4008B8D22 /* TabBarButton.swift in Sources */,
+				EFCF19292DC88E27008B8D22 /* SecureInputField.swift in Sources */,
+				EFCF194E2DC8D61C008B8D22 /* DiscoverView.swift in Sources */,
+				EFCF194A2DC8D360008B8D22 /* PieChartView.swift in Sources */,
+				EFCF19442DC8C137008B8D22 /* MenuView.swift in Sources */,
+				EFCF193E2DC8A233008B8D22 /* TabBarItems.swift in Sources */,
+				EFCF19122DC87C31008B8D22 /* WelcomeScreen.swift in Sources */,
+				EFCF192F2DC89D67008B8D22 /* HomeView.swift in Sources */,
 				EFCF19102DC87C31008B8D22 /* RobinhoodApp.swift in Sources */,
+				EFCF19272DC8895F008B8D22 /* CustomTextField.swift in Sources */,
+				EFCF194C2DC8D5CC008B8D22 /* InfoCardView.swift in Sources */,
+				EFCF19392DC8A1B3008B8D22 /* CustomTabbar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
